@@ -128,6 +128,21 @@ a {
         background-size: cover;
     }
 
+    .half_screen_wrapper {
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .half_screen {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 450px;
+    }
+
+    .half_screen h4 {
+        text-align: left;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
