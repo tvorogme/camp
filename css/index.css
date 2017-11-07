@@ -79,9 +79,10 @@ p {
 }
 
 .camp_autumn_image .notification {
-    background-color: #613D8D;
+    background-color: grey;
 }
 
+/*#613D8D*/
 .camp_winter_image .notification {
     background: rgb(67, 180, 152);
 }
@@ -178,7 +179,7 @@ a {
     }
 
     .camp_autumn_image .box-left {
-        background: rgb(67, 180, 152);
+        background: grey;
     }
 
     .camp_winter_image .box-left {
