@@ -147,6 +147,9 @@ a {
 }
 
 @media screen and (max-width: 900px) {
+    h1{
+        text-align: center;
+    }
 
     .main_description {
         padding-right: 50px;
