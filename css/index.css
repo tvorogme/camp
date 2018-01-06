@@ -87,16 +87,36 @@ p {
     background: rgb(67, 180, 152);
 }
 
+.camp_autumn_image .notification {
+    background: grey;
+}
+
+.camp_spring_image .notification {
+    background: #EF8B6A;
+}
+
+.camp_summer_image .notification {
+    background: #613D8D;
+}
+
 .camp_winter_image:hover .see-more {
     color: rgb(67, 180, 152);
 }
 
 .camp_autumn_image:hover .see-more {
+    color: grey;
+}
+
+.camp_spring_image:hover .see-more {
+    color: #EF8B6A;
+}
+
+.camp_summer_image:hover .see-more {
     color: #613D8D;
 }
 
 .text {
-    padding: 50px;
+    padding: 48px;
     padding-top: 10px;
     padding-bottom: 0;
     border: 1px solid #e5e5e5;
@@ -129,6 +149,18 @@ a {
         background-size: cover;
     }
 
+    .camp_summer_image .box-left {
+        background: url('../img/camp_summer.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .camp_spring_image .box-left {
+        background: url('../img/camp_spring.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
     .half_screen_wrapper {
         justify-content: flex-end;
         align-items: flex-end;
@@ -147,7 +179,7 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-    h1{
+    h1 {
         text-align: center;
     }
 
@@ -185,8 +217,16 @@ a {
         background: grey;
     }
 
-    .camp_winter_image .box-left {
+    .camp_summer_image .box-left {
         background: #613D8D;
+    }
+
+    .camp_spring_image .box-left {
+        background: #EF8B6A;
+    }
+
+    .camp_winter_image .box-left {
+        background: rgb(67, 180, 152);
     }
 }
 
@@ -235,6 +275,8 @@ a {
     }
 
     .camp_winter_image .box-left,
+    .camp_spring_image .box-left,
+    .camp_summer_image .box-left,
     .camp_autumn_image .box-left {
         background: none;
     }
