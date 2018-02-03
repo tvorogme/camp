@@ -84,7 +84,7 @@ p {
 
 /*#613D8D*/
 .camp_winter_image .notification {
-    background: rgb(67, 180, 152);
+    background: grey;
 }
 
 .camp_autumn_image .notification {
@@ -100,7 +100,7 @@ p {
 }
 
 .camp_winter_image:hover .see-more {
-    color: rgb(67, 180, 152);
+    color: grey;
 }
 
 .camp_autumn_image:hover .see-more {
@@ -226,7 +226,7 @@ a {
     }
 
     .camp_winter_image .box-left {
-        background: rgb(67, 180, 152);
+        background: grey;
     }
 }
 
