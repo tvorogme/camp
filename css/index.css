@@ -92,7 +92,7 @@ p {
 }
 
 .camp_spring_image .notification {
-    background: #EF8B6A;
+    background: grey;
 }
 
 .camp_summer_image .notification {
@@ -108,7 +108,7 @@ p {
 }
 
 .camp_spring_image:hover .see-more {
-    color: #EF8B6A;
+    color: grey;
 }
 
 .camp_summer_image:hover .see-more {
@@ -222,7 +222,7 @@ a {
     }
 
     .camp_spring_image .box-left {
-        background: #EF8B6A;
+        background: grey;
     }
 
     .camp_winter_image .box-left {
