@@ -96,6 +96,10 @@ p {
 }
 
 .camp_summer_image .notification {
+    background: grey;
+}
+
+.camp_autumn2_image .notification {
     background: #613D8D;
 }
 
@@ -112,6 +116,10 @@ p {
 }
 
 .camp_summer_image:hover .see-more {
+    color: grey;
+}
+
+.camp_autumn2_image:hover .see-more {
     color: #613D8D;
 }
 
@@ -133,7 +141,7 @@ a {
     }
 
     .box {
-        height: 260px;
+        height: 300px;
         border-left: 0;
     }
 
@@ -151,6 +159,12 @@ a {
 
     .camp_summer_image .box-left {
         background: url('../img/camp_summer.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .camp_autumn2_image .box-left {
+        background: url('../img/camp_autumn2.jpg');
         background-position: center;
         background-size: cover;
     }
@@ -218,6 +232,10 @@ a {
     }
 
     .camp_summer_image .box-left {
+        background: grey;
+    }
+
+    .camp_autumn2_image .box-left {
         background: #613D8D;
     }
 
@@ -277,6 +295,7 @@ a {
     .camp_winter_image .box-left,
     .camp_spring_image .box-left,
     .camp_summer_image .box-left,
+    .camp_autumn2_image .box-left,
     .camp_autumn_image .box-left {
         background: none;
     }
