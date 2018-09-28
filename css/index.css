@@ -103,6 +103,15 @@ p {
     background: #613D8D;
 }
 
+.camp_winter2_image .notification {
+    background: rgb(255, 140, 102);
+}
+
+
+.camp_winter2_image:hover .see-more {
+    color: rgb(255, 140, 102);
+}
+
 .camp_winter_image:hover .see-more {
     color: grey;
 }
@@ -153,6 +162,12 @@ a {
 
     .camp_winter_image .box-left {
         background: url('../img/camp_winter.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .camp_winter2_image .box-left {
+        background: url('../img/camp_winter2.jpg');
         background-position: center;
         background-size: cover;
     }
@@ -239,6 +254,10 @@ a {
         background: #613D8D;
     }
 
+    .camp_winter2_image .box-left {
+        background: rgb(255, 140, 102);
+    }
+
     .camp_spring_image .box-left {
         background: grey;
     }
@@ -293,6 +312,7 @@ a {
     }
 
     .camp_winter_image .box-left,
+    .camp_winter2_image .box-left,
     .camp_spring_image .box-left,
     .camp_summer_image .box-left,
     .camp_autumn2_image .box-left,
